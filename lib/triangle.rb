@@ -9,12 +9,11 @@ class Triangle
   
   def type()
     if (@side_1 == @side_2) && (@side_2 == @side_3)
-        :equilateral
+      puts "equilateral"
     elsif (@side_1 == @side_2) || (@side_2 == @side_3) || (@side_1 == @side_3)
-        :isosceles
+      puts "isosceles"
     else (@side_1 != @side_2) && (@side_2 != @side_3) && (@side_1 != @side_3)
-        :scalene
-      end
+      puts ":scalene"
     end
   end
 end
