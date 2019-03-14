@@ -24,6 +24,6 @@ class Triangle
   end
 end
 
-class TriangleError < StandardError
+class RangeError < StandardError
 
 end
